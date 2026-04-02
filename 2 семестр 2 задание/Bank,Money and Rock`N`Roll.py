@@ -51,7 +51,7 @@ b = [ ] #лимиты банков
 
 n = len(a)
 S, T = 0, 2 * n + 1      # Источник и сток
-unlim_float = sum(a)
+unlim_float = sum(a) + 1
 
 G =  [[0] * (T+1) for _ in range(T+1)]
 for i in range(n):
